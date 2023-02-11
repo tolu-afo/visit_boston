@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="../styles.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Visit Boston - Attractions</title>
+    </head>
+    <body>
+        <div class="top-nav" id="da-top-nav">
+            <a href="../index.html">Home</a>
+            <a href="../pages/stays.html">Stays</a>
+            <a href="../pages/attractions.html" class="active">Attractions</a>
+            <a href="../pages/night_life.html">Night Life</a>
+            <a href="../pages/homelessness_in_america.html">Hobo Betting</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="top-section top-section-attractions">
+            <div class="splash-text">
+                <div>
+                    <h1>Attractions</h1>
+                    <p>When it comes to things to do; Boston offers all sorts of options for weekend gateaways and weekday excursions. <br> Start planning your trip by looking down below to see some of what Boston has to offer.</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="body-section">
+            <!-- Stays Section -->
+            <div class="info-section">
+                <!-- left image - right text -->
+                <div class="info-image">
+                    <img src="../images/museum_of_sci.jpg">
+                </div>
+                <div class="text-section">
+                    <h1>Museum of Science</h1>
+                    <div class="info-text">
+                        The Museum of Science, located near north point in cambridge, MA, is a site for all ages visiting boston. With family frienedly exhibits, movies, and shows.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Attractions Section -->
+            <div class="info-section info-section-reverse">
+                <!-- right image - left text -->
+                <div class="text-section">   
+                    <h1>Boston Common & Public Garden</h1>  
+                    <div class="info-text-reverse">
+                       At the core of bostons green space experience, is the renown Boston Common & Public Garden. Bothh are peaceful and Beatiful locations where flowers, geese, and other woodland creatures abound. Come here to take a pleasant boat ride arorund the pond.
+                    </div>
+                </div>
+                <div class="info-image">
+                    <img src="../images/public_common.jpg">
+                </div>
+            </div>
+            <div class="info-section">
+                <!-- left image - right text -->
+                <div class="info-image">
+                    <img src="../images/quincy_hall.jpg">
+                </div>
+                <div class="text-section">
+                    <h1>Faneuil Hall & Quincy Market</h1>
+                    <div class="info-text">
+                        If you're looking for a bit of Bostons Revolutionary History, or for a selection from some of Boston's best food options. Then Faneuil Hall and Quincy Market simply must be on your docket.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-section">
+            <div class="copyright">
+                <div>&copy; 2023 ToluAfo; All Rights Reserved</div>  
+            </div>
+        </section>
+    </body>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("da-top-nav");
+            if (x.className === "top-nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "top-nav";
+            }
+        }
+    </script>
+</html>

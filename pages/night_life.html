@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="../styles.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Visit Boston - Night Life</title>
+    </head>
+    <body>
+        <div class="top-nav" id="da-top-nav">
+            <a href="../index.html">Home</a>
+            <a href="../pages/stays.html">Stays</a>
+            <a href="../pages/attractions.html">Attractions</a>
+            <a href="../pages/night_life.html" class="active">Night Life</a>
+            <a href="../pages/homelessness_in_america.html">Hobo Betting</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="top-section top-section-night-life">
+            <div class="splash-text">
+                <div>
+                    <h1>Night Life</h1>
+                    <p>See all boston has to offer after dark, scroll down to take a look.</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="body-section">
+            <!-- Stays Section -->
+            <div class="info-section">
+                <!-- left image - right text -->
+                <div class="info-image">
+                    <img src="../images/bijou.jpg">
+                </div>
+                <div class="text-section">
+                    <h1>Bijou</h1>
+                    <div class="info-text">
+                        A beautiful, modern club, set in a vintage scene. Bijou has some of Bostons best music, and best vibes.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Attractions Section -->
+            <div class="info-section">
+                <!-- right image - left text -->
+                <div class="text-section">   
+                    <h1>Versus</h1>  
+                    <div class="info-text-reverse info-section-reverse">
+                       A must visit spot, for any persons with a competitive spirit and a knack for gaming in any capaciity. Get a beer, and grab a controller at Versus Bar and Arcade.
+                    </div>
+                </div>
+                <div class="info-image">
+                    <img src="../images/versus.jpg">
+                </div>
+            </div>
+            <div class="info-section">
+                <!-- left image - right text -->
+                <div class="info-image">
+                    <img src="../images/photo.jpeg">
+                </div>
+                <div class="text-section">
+                    <h1>Icon</h1>
+                    <div class="info-text">
+                       Looking to get out on the town and have a good night with your friends? Well Icon is the place for you. A classy club where anyone can have a blast.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-section">
+            <div class="copyright">
+                <div>&copy; 2023 ToluAfo; All Rights Reserved</div>  
+            </div>
+        </section>
+    </body>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("da-top-nav");
+            if (x.className === "top-nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "top-nav";
+            }
+        }
+    </script>
+</html>

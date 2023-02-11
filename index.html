@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Visit Boston</title>
+    </head>
+    <body>
+        <div class="top-nav" id="da-top-nav">
+            <a href="./index.html" class="active">Home</a>
+            <a href="./pages/stays.html">Stays</a>
+            <a href="./pages/attractions.html">Attractions</a>
+            <a href="./pages/night_life.html">Night Life</a>
+            <a href="./pages/homelessness_in_america.html">Hobo Betting</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="top-section top-section-home">
+            <div class="splash-text">
+                <div>
+                    <h1>Visit Boston</h1>
+                    <p>Come here for all your latest Boston Attractions</p>
+                </div>
+                <a href="./pages/homelessness_in_america.html"><button class="button">Learn More</button></a>
+            </div>
+        </div>
+        <section class="body-section">
+            <!-- Stays Section -->
+            <div class="info-section">
+                <!-- left image - right text -->
+                <div class="info-image">
+                    <img src="./images/BPP_Hotel_Press-2_0.jpg">
+                </div>
+                <div class="text-section">
+                    <h1>Stays</h1>
+                    <div class="info-text">
+                        <div>In Boston, whether you want to catch a game at fenway, or a performance at the symphony, there are plenty of amazing locales at which you can rest your head. Boston offers all sorts of options for weekend gateaways and weekday excursions. Start planning your trip and click below to see some of bostons best stays.</div>
+                        <a href="./pages/stays.html"><button class="button">See Stays</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Attractions Section -->
+            <div class="info-section info-section-reverse">
+                <!-- right image - left text -->
+                <div class="text-section">   
+                    <h1>Attractions</h1>  
+                    <div class="info-text-reverse">
+                        <div>Boston might be a smaller city than other american cities you may know about, but it makes up for it in its diversity of options and things to keep you busy. When you're in boston you'll never run out of exciting activities to get in to. You can take your time and explore the green area that covers the city, or you can visit one of many Boston museums and learn something new about art, history or even science. Click below to get an ideae of what awesome attractions awaits you in Beantown.</div>
+                        <a href="./pages/attractions.html"><button class="button">See Attractions</button></a>
+                    </div>
+                </div>
+                <div class="info-image">
+                    <img src="./images/pexels-jayden-burdick-3397975.jpg">
+                </div>
+            </div>
+            <div class="info-section">
+                <!-- left image - right text -->
+                <div class="info-image">
+                    <img src="./images/night-life.jpg">
+                </div>
+                <div class="text-section">
+                    <h1>Night Life</h1>
+                    <div class="info-text">
+                        <div>When people think of Boston, they don't often think of a bustling night life, but believe you me, boston has exactly that. Whether its a fun night at the arcade or boowling alley you're up for, a groovy night down at one of bostons many night clubs. You can find it all and more in bostons many night life options. From bars, to arcades and clubs, all and more are at your fingertips each and every night. If you want to know where you should head this evening, click the button below.</div>
+                        <a href="./pages/night_life.html"><button class="button">See Night Life</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-section">
+            <div class="copyright">
+                <div>&copy; 2023 ToluAfo; All Rights Reserved</div>  
+            </div>
+        </section>
+    </body>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("da-top-nav");
+            if (x.className === "top-nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "top-nav";
+            }
+        }
+    </script>
+</html>

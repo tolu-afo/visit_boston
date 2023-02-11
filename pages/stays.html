@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="../styles.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Visit Boston - Stays</title>
+    </head>
+    <body>
+        <div class="top-nav" id="da-top-nav">
+            <a href="../index.html">Home</a>
+            <a href="../pages/stays.html" class="active">Stays</a>
+            <a href="../pages/attractions.html">Attractions</a>
+            <a href="../pages/night_life.html" >Night Life</a>
+            <a href="../pages/homelessness_in_america.html">Hobo Betting</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="top-section top-section-stays">
+            <div class="splash-text">
+                <div>
+                    <h1>Stays</h1>
+                    <p>A look at some of the nicest hotels Boston has to offer</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="body-section">
+            <!-- Stays Section -->
+            <div class="info-section">
+                <!-- left image - right text -->
+                <div class="info-image">
+                    <img src="../images/westin.jpg">
+                </div>
+                <div class="text-section">
+                    <h1>The Westin</h1>
+                    <div class="info-text">
+                        Located in the Beautiful Seaport District, known for its fancy bars, and breathtaking views, The Westin is prime real estate for any person visiting Boston for business or pleasure.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Attractions Section -->
+            <div class="info-section info-section-reverse">
+                <!-- right image - left text -->
+                <div class="text-section">  
+                    <h1>Mandarin Oriental Boston</h1>  
+                    <div class="info-text-reverse">
+                        The Mandarin Oriental nestled amongst the business and buildings of bustling boylston, is one of Bostons best and most advantageously situated hotels, giving you easy access to some of Bostons greatest attractions.
+                    </div>
+                </div>
+                <div class="info-image">
+                    <img src="../images/mandarin_hotel.jpg">
+                </div>
+            </div>
+            <div class="info-section">
+                <!-- left image - right text -->
+                <div class="info-image">
+                    <img src="../images/w.jpg">
+                </div>
+                <div class="text-section">
+                    <h1>W Boston</h1>
+                    <div class="info-text">
+                        W Boston is a hotel located in the heart of Bostons financial district, with easy access to some of Boston's best bars and night clubs. The W offers a great base of operations for explore Boston's Night Life.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-section">
+            <div class="copyright">
+                <div>&copy; 2023 ToluAfo; All Rights Reserved</div>
+            </div>
+        </section>
+    </body>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("da-top-nav");
+            if (x.className === "top-nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "top-nav";
+            }
+        }
+    </script>
+</html>
